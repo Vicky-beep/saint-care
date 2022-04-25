@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAV BAR BEGINS -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" ><i class="fa fa-heartbeat heartbeat" aria-hidden="true"></i>Saint Care</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-1 mb-lg-0" style="font-size: 1rem;" >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Consultation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Find A Doctor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Articles</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQs</a>
+              </li>
+            </ul>
+            <div class="button open-button" onclick="openForm()" onkeypress="closeForm()">
+              Sign Up
+              <div></div>
+              <i class="fa fa-arrow-right" ></i>
+            </div>
+            <!-- stylesheet for this button -->
+         
+        </div>
+
+      </nav>
+      
+<!-- popup form -->
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+    <h3>Sign In</h3>
+    <label for="email">Email</label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+   
+    <label for="psw">Password</label>
+    <input type="password" placeholder="Enter password" name="psw" required>
+   
+   
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    <p> <a href="#"> create account</a> | <a href="#">forgot password</a></p> 
+  </form>
+</div>
+
+    <!-- NAV BAR ENDS -->
+    <div class="angry-grid ">
+      <div id="item-0">
+      
+        <div class="animated-title">
+          <div class="text-top">
+            <div>
+              <span>Saint</span>
+              <span>Care</span>
+            </div>
+          </div>
+          <div class="text-bottom">
+            <div>We care about you!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   <div class="container-fluid box">
+    
+    <div class="row mx-auto main-box">
+
+      <div class="col-sm small-box">
+       <span> <i class="fa-solid fa-house-chimney-medical"></i></span>
+       <h3>Integrated</h3>
+       <p>Our system is integrated with all health <br> components 
+         to make it easier and provide <br> the best medical care for you</p>
+      </div>
+      
+      <div class="col-sm small-box">
+        <span><i class="fa-solid fa-hospital"></i></span>
+        <h3>20+ Hospitals</h3>
+        <p>Up to 20 hospital branches across the country, <br> including our international facility in South Africa</p>
+      </div>
+
+      <div class="col-sm small-box">
+        <span><i class="fa-solid fa-stethoscope"></i></span>
+        <h3>400+ Doctors</h3>
+        <p>400 professional doctors, so we guarantee <br> you will get the best quality from us.</p>
+      </div>
+
+    </div>
+    <div class="row mx-auto main-box box-2">
+
+      <div class="col-sm small-box">
+       <span><i class="fa-solid fa-user-doctor"></i></span>
+       <h3>100+ Health Services</h3>
+       <p>Our system is integrated with all health <br> components 
+         to make it easier and provide <br> the best medical care for you</p>
+      </div>
+      
+      <div class="col-sm small-box">
+        <span><i class="fa-solid fa-briefcase-medical"></i></span>
+        <h3>Patient Safety</h3>
+        <p>Up to 20 hospital branches across the country, <br> including our international facility in South Africa</p>
+      </div>
+
+      <div class="col-sm small-box">
+        <span><i class="fa-solid fa-pills"></i></span>
+        <h3>Drug Dispensery</h3>
+        <p>400 professional doctors, so we guarantee <br> you will get the best quality from us.</p>
+      </div>
+
+    </div>
+  </div>
+  <hr>
+   <!-- KINDA LIKE A BLOG -->
+  <div class="container ">
+    <div class="row justify-content-md-center main">
+      
+    <div class="row">
+
+      <div class="col heading-text">
+        <!-- HEADING TEXT -->
+        <div class="heading2-text">
+          <h4 class="head-text">
+            Get a variety of medical services with our certified doctors
+          </h4>
+          <p class="desc-text">
+            We have hundreds of doctors who have been selected and have official certificatefrom the 
+            World Doctors Association <span>(WDA)</span>  and World Health Organization <span>(WHO)</span>.
+          </p>
+          <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+       
+      </div>
+      <!-- BIG CONTENT CONTAINER -->
+      <div class="col-md-auto main-content">
+        <div class="content">
+
+          <div class="content-image">
+            <img src="https://images.unsplash.com/photo-1632053003385-245d2569568a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGRvY3RvcnN8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="100%" height="100%" alt="">
+          </div>
+
+          <div class="content-text">
+              <h5>Dr. Smith</h5>
+              <p>paediatrician</p>
+          </div>
+          <span><i class="fa-solid fa-heart"></i></span>
+        </div>
+        
+      </div>
+<!-- SMALL CONTENT CONTAINER -->
+      <div class="col col-lg-2 main-content2">
+        <div class="content">
+
+          <div class="content-image">
+            <img src="https://images.unsplash.com/photo-1551601651-124575cf5969?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZG9jdG9yc3xlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60" width="100%" height="100%" alt="">
+          </div>
+
+          <div class="content-text">
+              <h5>Dr. Holland</h5>
+              <p>Head Surgeon</p>
+          </div>
+          <span><i class="fa-solid fa-heart"></i></span>
+        </div>
+        <div class="content">
+
+          <div class="content-image">
+            <img src="https://images.unsplash.com/photo-1576089172869-4f5f6f315620?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhlYWx0aGNhcmV8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="100%" height="100%" alt="">
+          </div>
+
+          <div class="content-text">
+              <h5>Dr. Rumavh</h5>
+              <p>Resident Doctor</p>
+          </div>
+          <span><i class="fa-solid fa-heart"></i></span>
+        </div>
+        
+      </div>
+      </div>
+      
+    </div>
+
+  </div>
+   
+   
+   
+  <div class="container">
+
+    <div class="row main2">
+
+      <div class="col-sm-5 main-mini">
+        <!-- first mini box -->
+        <div class="col-sm mini-box">
+
+          <div class="inner-mini">
+              <img src="https://images.unsplash.com/photo-1554244933-d876deb6b2ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvdmlkMTl8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" width="150px" height="150px" alt="">
+
+              <div class="inner-minitext">
+                <h4>Personal Well-being</h4>
+                <p>Saint PharmCare</p>
+
+                <div class="inner-footer">
+            
+                  <p> <i class="fa-solid fa-clock"></i> 10.00am | <span>See Details</span></p>
+                  <p><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>  <i class="fa-solid fa-star"></i> (4.5)</p>
+                </div>
+              </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-sm">
+          <div class="col-sm mini-box">
+
+            <div class="inner-mini">
+                <img src="https://images.unsplash.com/photo-1608326389514-d9d2514e1933?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y292aWQxOXxlbnwwfDJ8MHx8&auto=format&fit=crop&w=500&q=60" width="150px" height="150px" alt="">
+  
+                <div class="inner-minitext">
+                  <h4>Covid-19 Vaccination</h4>
+                  <p>Saint RSCM</p>
+  
+                  <div class="inner-footer">
+              
+                    <p> <i class="fa-solid fa-clock"></i> 2.30pm | <span>See Details</span></p>
+                    <p><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>  (3.5)</p>
+                  </div>
+                </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+      </div>
+     
+      <div class="col-sm-7 main-heading2">
+        <div class="heading2-text">
+          <h4 class="head-text">
+            You can also arrange your schedule with our doctors
+          </h4>
+          <p class="desc-text">
+            You can schedule an appointment with our doctors according to the date you specify. <br> <span>We're here for you.</span> 
+          </p>
+          <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div> 
+   
+   
+   
+   <!-- mobile app part  -->
+   <div class="container">
+    <div class="row mobile-layer">
+      <div class="col-12 mobile-mini">
+        <h3>Get easy access to our online pharmacy and  consultancy services. <br> <span>Download Now</span> </h3>
+        <br>
+        <a href="#">
+          <img src="./images/image.png" width="300px"  alt="">
+        </a>
+       
+      </div>
+      
+    </div>
+   </div>
+   
+   
+   <hr>
+<div class="foot">
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <a class="navbar-brand logo" href="#" style="font-size: 1.5rem;"><i class="fa fa-heartbeat heartbeat" aria-hidden="true"></i>Saint Care</a>
+
+      <p class="footer-links">
+        <a href="#" class="link-1">Home</a>
+        
+        <a href="#">Services</a>
+      
+        <a href="#">Consultancy</a>
+      
+        <a href="#">Find a doctor</a>
+        
+        <a href="#">Articles</a>
+        
+        <a href="#">FAQ</a>
+      </p>
+
+     
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+1.555.555.5555</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">support@company.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the company</span>
+        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+      </div>
+
+    </div>
+    
+  </footer>
+  <p class="footer-company-name"></p>
+</div>
+   
+   <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+   <script src="./app.js"></script>
+</body>
+</html>
